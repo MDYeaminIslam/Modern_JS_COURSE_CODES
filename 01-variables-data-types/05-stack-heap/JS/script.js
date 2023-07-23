@@ -11,7 +11,7 @@ const person = {
 }
 
 let newname = name;
-newName = 'Yeamin';
+newname = 'Yeamin';
 
 let newPerson = person;
 newPerson.name = 'Rabiul';

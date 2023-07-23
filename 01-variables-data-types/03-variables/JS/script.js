@@ -12,14 +12,14 @@ let age = 30;
 // - Only letters, numbers, _ and $
 // - Cannot start with a number
 // - Multi word variables
-// firstName = camalCase
+// firstName = CamalCase
 // FirstName = PascalCase
 // first_name = snake_case/underscore_case
 // firstname = lowercase
 
 age = 31;
 // We can reassign variables but we cannot redeclare them
-// we can't reassing const variables
+// we can't reassign const variables
 
 const arr = [1,2,3,4,5];
 arr.push(6); // we can change the value of const variables using methods

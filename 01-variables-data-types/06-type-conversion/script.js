@@ -1,4 +1,4 @@
-//
+
 let amount = '200';
 //Change the type of amount from string to number
 //amount = parseInt(amount); //convert string to number

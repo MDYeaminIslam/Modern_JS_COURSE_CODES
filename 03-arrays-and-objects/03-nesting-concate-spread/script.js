@@ -18,7 +18,7 @@ x = [...fruits,...berries]; // combine two arrays entirely and act as a single a
 //Flatten Array
 
 const arr =[1,2,3,[4,5,6],[7,8,9]];
-x = arr.flat(); // flatten the array that meeans remove the nested array and make it a single array
+x = arr.flat(); // flatten the array that means remove the nested array and make it a single array
 
 //Statice Methods on Array Onbject
 x = Array.isArray(arr); // check if the object is an array or not. return true or false

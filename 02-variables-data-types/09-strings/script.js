@@ -24,7 +24,7 @@ x = s.toLowerCase(); //convert to lowercase
 
 x = s.charAt(3); //access the character at index 3
 
-x = s.indexOf('W'); //access the index of the first occurence of the character 'W'
+x = s.indexOf('W'); //access the index of the first occuranse of the character 'W'
 
 x = s.substring(0, 5); //access the substring from index 0 to 5
 

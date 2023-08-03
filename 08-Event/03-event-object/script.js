@@ -13,9 +13,10 @@ function onClick(e){
 
 }
 function onDrag(e){
-    document.querySelector('h1').textContent = `X : ${}`
+    document.querySelector('h1').textContent = `X : ${e.clientX} Y : ${e.clientY}`;
 }
 logo.addEventListener('click', onClick); 
+logo.addEventListener('drag', onDrag);
 
 document.querySelector('a').addEventListener('click', function(e){ e.preventDefault(); console.log('You clicked the link'); }); //Note: It will prevent the default behaviour of the link.
 /*

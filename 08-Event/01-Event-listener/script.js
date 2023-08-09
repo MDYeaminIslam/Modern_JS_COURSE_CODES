@@ -11,11 +11,6 @@ function onClear(){
     while(itemList.firstChild){
         itemList.removeChild(itemList.firstChild); //Note: this will remove all the elements from the list.because firstChild will always return the first element of the list.
     }
-
-
-
-
-
 } //Note: this function is not called anywhere in the code.
 
 //JS Event Listener

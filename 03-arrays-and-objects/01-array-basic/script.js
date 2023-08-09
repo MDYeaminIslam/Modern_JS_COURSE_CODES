@@ -15,7 +15,7 @@ x = `My favorite fruit is ${fruits[1]}`;
 
 x = numbers.length;
 
-fruits[2] = 'korolla'
+fruits[2] = 'korolla';
 
 fruits[fruits.length] = 'banana'; //add new element at the end of the array because of length method.
 

@@ -5,7 +5,7 @@ const post = {
 
 };
 
-//Convert to Json string
+//Convert into Json string
 const str = JSON.stringify(post);
 
 //Convert JSON to 
@@ -25,6 +25,6 @@ const posts = [
 
 ];
 
-const str2 = JSON.stringify(posts);
+const str2 = JSON.stringify(posts); //Convert into Json string
 
 console.log(str2);

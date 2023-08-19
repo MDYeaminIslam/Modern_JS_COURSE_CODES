@@ -20,6 +20,6 @@ x = Math.random()*100 ;
 
 let y = Math.random * 100;
 
-
-
-console.log(x);
+let value = [21,1,3,545,12,-2];
+let value1 = Math.min(...value);
+console.log(value1);

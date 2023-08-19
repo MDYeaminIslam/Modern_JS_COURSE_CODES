@@ -1,4 +1,4 @@
-// Flasy values:
+// Falsy values:
 // - False
 // - 0
 // - "" or '' (Empty String)

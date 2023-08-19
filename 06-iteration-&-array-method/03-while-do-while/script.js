@@ -5,7 +5,7 @@ let i = 0;
 //     i++;
 // }
 
-//Loop Over arrays
+// Loop Over arrays
 // const arr = [10,20,30,40];
 
 // while( i< arr.length){

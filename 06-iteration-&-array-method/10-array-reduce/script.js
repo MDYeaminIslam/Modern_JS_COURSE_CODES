@@ -1,6 +1,6 @@
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-const sum = numbers.reduce((acc, cur) => acc + cur, 0); //0 is the initial value of the accumulatora and cur is the current value and acc is the accumulator whice means the value that is returned from the previous iteration
+const sum = numbers.reduce((acc, cur) => acc + cur, 0); //0 is the initial value of the accumulatora and cur is the current value and acc is the accumulator which means the value that is returned from the previous iteration
 console.log(sum);
 
 //Using a for loop

@@ -1,1 +1,0 @@
-myNewString = myString.charAt(0).toUpperCase() + myString.substring(1);

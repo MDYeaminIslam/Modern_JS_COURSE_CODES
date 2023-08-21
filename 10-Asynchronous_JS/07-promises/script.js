@@ -1,19 +1,29 @@
-const jokeEL = document.getElementById('joke');
-const jokeBtn = document.getElementById('joke-btn');
-const generateJoke = () => {
-  const xhr = new XMLHttpRequest();
+//Create a promise
+// const promise = new Promise((resolve, reject) => {
+//   //Do some async stuff
+//   setTimeout(() => {
+//     console.log("Async work complete");
+//     resolve();
+//   }, 1000);
+// });
+// promise.then(() => {
+//   console.log("Task completed");
+// });
+console.log("Hello Form global scope");
 
-  xhr.open('GET','https://api.chucknorris.io/jokes/random');
+const getUser = new Promise((resolve, reject) => {
+  //Do some async stuff
+  setTimeout(() => {
+    let error = false;
 
-  xhr.onreadystatechange = function(){
-    if(this.readyState === 4){
-      if (this.status === 200){
-        jokeEL.innerHTML = JSON.parse(this.responseText).value;
-      }
-    }else{
-      jokeEL.innerHTML = "Something went wrong";
+    if(!error){
+      resolve({ name: "John", age: 26 });
     }
-  };
-  xhr.send();
-};
-jokeBtn.addEventListener('click', generateJoke);
+    else{
+      reject("Error: Something went wrong");
+    }
+  }, 1000);
+});
+getUser.then(() => console.log("Task completed"))
+.catch((error) => console.log(error)).
+finally(() => console.log("The promise has been resolved or rejected "));
